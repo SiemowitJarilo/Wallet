@@ -1,0 +1,50 @@
+
+'''
+from operator import index
+from pstats import SortKey
+
+
+Print("hej")            # Wywietlanie ciągu tekstoweg
+    Print("hej" end=)   # Usuwa wcięcie między wyrazmi  
+    Print("hej" sep=)   # Usuwa spacje między wyrazami
+input()                 # Pole tekstowe
+len()                   # Obliczanie liczby znaków w tekscie
+str()                   # Zmienia postać liczbową na tekstową
+int()                   # Zmienia na liczbę całkowitą
+float()                 # Zmienia na liczbe zmiennoprzecinkową
+spam = true             # Wartość boolowska true
+noSpam = FALSE          # Wartość boolowska false
+and                     #
+or                      #
+not                     #
+if                      #Funkcja jeżeli
+else:                   # Funkcja w przeciwnym razie, jeżeli if = false zadziała else
+elif                    # Funkcja działa jeżeli if = false i sprawdza kolejny warunek
+while                   # Pętla, dopóki; będzie wykonywana dopóki nie przyjmie warotści True
+break                   # Polecenie kończące/opuszczające pętle while
+continue                # Polecenie rozpoczynające pętle while od nowa
+for                     # Pętla, dla; Potrzebuje zmiennej, słowa kluczowego, wywołania metody
+    range()                         # Metoda pętli for, powtarzanie iteracji
+Sys.exit()                          # Zakończenie programu 
+def                                 # Słowo do definiowania funkcję   
+try                                 # Polecenie próbujące wykonanie kodu mogącego zawierać błąd
+except                              # Polecenie omijające błąd, bez wywalania programu 
+list[]                              #
+    in
+    not in
+    index()                         # Wyszukiwanie na liście
+    append()                        # Dodawanie wartości do listy
+    insert()                        # Dodawanie wartości do listy
+    remove()                        # Uwuwanie wartości z listy
+    Sort()                          # Sortowanie wartości
+krotka = ('Wartosci')               # To inny typ listy, niemodyfikowalny
+    tuple()                         # Modyfikuje krotkę na listę
+Słownik ={'klucz':'zamek'}          # Słownik 
+    keys()                          # Iteracja dla kluczy
+    values()                        # Iteracja dla wartości
+    items()                         # Iteracla dla pary Klucz:wartość
+    get()
+    setdefault()
+os.makedirs()                       # Tworzenie folderu, wcześniej trzeba zaimportować os
+
+
